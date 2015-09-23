@@ -1,0 +1,9 @@
+Install Cucumber: in the terminal
+
+You need Ruby version 2.1.2, not higher
+gem install calabash-cucumber
+
+Compile calabash scheme for iPhone 6 (8.1 Simulator) then in Terminal Navigate
+to the project folder and run this command:
+
+DEVICE_TARGET='iPhone 6 (8.1 Simulator)' RESET_BETWEEN_SCENARIOS=0 cucumber

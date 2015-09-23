@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01bdbffde55855803f2d46a9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607126B21BB1DB3D00C13381 /* LaunchScreen.xib */; };
+		0a9af5856cd04e2ff52b7da1 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9312e861140cd1599733ee25 /* calabash.framework */; };
+		1b3cf56ffdbf3e32f71e0328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126A51BB1DB3D00C13381 /* main.m */; };
+		23214a157ce5bbf1d60e2447 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8235315fc46a1cc193d60200 /* CFNetwork.framework */; };
+		4297b55287ea0c7ebb420730 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0993213ADE8EA01DAA4561 /* libPods.a */; };
+		4a9bdcfa29fc5c2e97c48139 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607126B01BB1DB3D00C13381 /* Images.xcassets */; };
+		607126A61BB1DB3D00C13381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126A51BB1DB3D00C13381 /* main.m */; };
+		607126A91BB1DB3D00C13381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126A81BB1DB3D00C13381 /* AppDelegate.m */; };
+		607126AF1BB1DB3D00C13381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607126AD1BB1DB3D00C13381 /* Main.storyboard */; };
+		607126B11BB1DB3D00C13381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607126B01BB1DB3D00C13381 /* Images.xcassets */; };
+		607126B41BB1DB3D00C13381 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607126B21BB1DB3D00C13381 /* LaunchScreen.xib */; };
+		607126C01BB1DB3D00C13381 /* ASFyberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126BF1BB1DB3D00C13381 /* ASFyberTests.m */; };
+		60F6530D1BB1DCDF007138CE /* ListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F652FF1BB1DCDF007138CE /* ListViewModel.m */; };
+		60F6530F1BB1DCDF007138CE /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653001BB1DCDF007138CE /* ListTableViewCell.m */; };
+		60F653111BB1DCDF007138CE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653011BB1DCDF007138CE /* ListViewController.m */; };
+		60F653131BB1DCDF007138CE /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F653021BB1DCDF007138CE /* ListTableViewCell.xib */; };
+		60F653141BB1DCDF007138CE /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F653021BB1DCDF007138CE /* ListTableViewCell.xib */; };
+		60F653151BB1DCDF007138CE /* RequestMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653041BB1DCDF007138CE /* RequestMaker.m */; };
+		60F653171BB1DCDF007138CE /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653051BB1DCDF007138CE /* Offer.m */; };
+		60F653181BB1DCDF007138CE /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653051BB1DCDF007138CE /* Offer.m */; };
+		60F653191BB1DCDF007138CE /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653061BB1DCDF007138CE /* FormViewController.m */; };
+		60F6531A1BB1DCDF007138CE /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653061BB1DCDF007138CE /* FormViewController.m */; };
+		6d6c87b7a9109f70fb7fdf83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607126AD1BB1DB3D00C13381 /* Main.storyboard */; };
+		797bd3589be6316ebb9be480 /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653051BB1DCDF007138CE /* Offer.m */; };
+		83EF7C11DE8A5023E101EB11 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0993213ADE8EA01DAA4561 /* libPods.a */; };
+		a1ac5eb89212f25c9ebce529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126A81BB1DB3D00C13381 /* AppDelegate.m */; };
+		b6b95ace42b6c99130e65374 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653061BB1DCDF007138CE /* FormViewController.m */; };
+		ba239f1a044df452e10faaf1 /* ListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F652FF1BB1DCDF007138CE /* ListViewModel.m */; };
+		c57cc680befbc6a0450a3a49 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F653021BB1DCDF007138CE /* ListTableViewCell.xib */; };
+		d37bf4c6f1e38a4f15dfadc6 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653011BB1DCDF007138CE /* ListViewController.m */; };
+		e2d1d0face6a703b7a571bcf /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653001BB1DCDF007138CE /* ListTableViewCell.m */; };
+		eb77760968c5053504d05735 /* RequestMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653041BB1DCDF007138CE /* RequestMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607126BA1BB1DB3D00C13381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607126981BB1DB3D00C13381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6071269F1BB1DB3D00C13381;
+			remoteInfo = ASFyber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCFA20E0F6F7C7DE5C0C3B9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		60351A601BB1DE7F00662738 /* ASFyber-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASFyber-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607126A01BB1DB3D00C13381 /* ASFyber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASFyber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607126A41BB1DB3D00C13381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607126A51BB1DB3D00C13381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		607126A71BB1DB3D00C13381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		607126A81BB1DB3D00C13381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		607126AE1BB1DB3D00C13381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607126B01BB1DB3D00C13381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607126B31BB1DB3D00C13381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607126B91BB1DB3D00C13381 /* ASFyberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASFyberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607126BE1BB1DB3D00C13381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607126BF1BB1DB3D00C13381 /* ASFyberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASFyberTests.m; sourceTree = "<group>"; };
+		60DF55C91BB1E36E00853AA5 /* asfyber.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = asfyber.feature; sourceTree = "<group>"; };
+		60DF55CA1BB1E36E00853AA5 /* commandline */ = {isa = PBXFileReference; lastKnownFileType = text; path = commandline; sourceTree = "<group>"; };
+		60DF55CC1BB1E36E00853AA5 /* calabash_steps.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = calabash_steps.rb; sourceTree = "<group>"; };
+		60DF55CD1BB1E36E00853AA5 /* my_first_steps.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = my_first_steps.rb; sourceTree = "<group>"; };
+		60DF55CF1BB1E36E00853AA5 /* 01_launch.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = 01_launch.rb; sourceTree = "<group>"; };
+		60DF55D01BB1E36E00853AA5 /* 02_pre_stop_hooks.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = 02_pre_stop_hooks.rb; sourceTree = "<group>"; };
+		60DF55D11BB1E36E00853AA5 /* env.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		60F652FF1BB1DCDF007138CE /* ListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewModel.m; sourceTree = "<group>"; };
+		60F653001BB1DCDF007138CE /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		60F653011BB1DCDF007138CE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		60F653021BB1DCDF007138CE /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		60F653031BB1DCDF007138CE /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		60F653041BB1DCDF007138CE /* RequestMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestMaker.m; sourceTree = "<group>"; };
+		60F653051BB1DCDF007138CE /* Offer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer.m; sourceTree = "<group>"; };
+		60F653061BB1DCDF007138CE /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+		60F653071BB1DCDF007138CE /* ListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewModel.h; sourceTree = "<group>"; };
+		60F653081BB1DCDF007138CE /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		60F653091BB1DCDF007138CE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		60F6530A1BB1DCDF007138CE /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		60F6530B1BB1DCDF007138CE /* Offer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer.h; sourceTree = "<group>"; };
+		60F6530C1BB1DCDF007138CE /* RequestMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestMaker.h; sourceTree = "<group>"; };
+		8235315fc46a1cc193d60200 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8A2CDD90EBD9CED2B9A1D570 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9312e861140cd1599733ee25 /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		DF0993213ADE8EA01DAA4561 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6071269D1BB1DB3D00C13381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EF7C11DE8A5023E101EB11 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607126B61BB1DB3D00C13381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ca942f966a8ddf666821d6e5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4297b55287ea0c7ebb420730 /* libPods.a in Frameworks */,
+				23214a157ce5bbf1d60e2447 /* CFNetwork.framework in Frameworks */,
+				0a9af5856cd04e2ff52b7da1 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D781E4AFF07977A31936B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BCFA20E0F6F7C7DE5C0C3B9 /* Pods.debug.xcconfig */,
+				8A2CDD90EBD9CED2B9A1D570 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		607126971BB1DB3D00C13381 = {
+			isa = PBXGroup;
+			children = (
+				607126A21BB1DB3D00C13381 /* ASFyber */,
+				607126BC1BB1DB3D00C13381 /* ASFyberTests */,
+				607126A11BB1DB3D00C13381 /* Products */,
+				0D781E4AFF07977A31936B05 /* Pods */,
+				D11C79A0AACD366190E39696 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607126A11BB1DB3D00C13381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607126A01BB1DB3D00C13381 /* ASFyber.app */,
+				607126B91BB1DB3D00C13381 /* ASFyberTests.xctest */,
+				60351A601BB1DE7F00662738 /* ASFyber-cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607126A21BB1DB3D00C13381 /* ASFyber */ = {
+			isa = PBXGroup;
+			children = (
+				60F652FD1BB1DC99007138CE /* APPLICATION */,
+				60F652FC1BB1DC8D007138CE /* SDK */,
+				607126B01BB1DB3D00C13381 /* Images.xcassets */,
+				607126B21BB1DB3D00C13381 /* LaunchScreen.xib */,
+				607126A31BB1DB3D00C13381 /* Supporting Files */,
+			);
+			path = ASFyber;
+			sourceTree = "<group>";
+		};
+		607126A31BB1DB3D00C13381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60DF55C81BB1E36E00853AA5 /* features */,
+				607126A41BB1DB3D00C13381 /* Info.plist */,
+				607126A51BB1DB3D00C13381 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607126BC1BB1DB3D00C13381 /* ASFyberTests */ = {
+			isa = PBXGroup;
+			children = (
+				607126BF1BB1DB3D00C13381 /* ASFyberTests.m */,
+				607126BD1BB1DB3D00C13381 /* Supporting Files */,
+			);
+			path = ASFyberTests;
+			sourceTree = "<group>";
+		};
+		607126BD1BB1DB3D00C13381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607126BE1BB1DB3D00C13381 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60DF55C81BB1E36E00853AA5 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				60DF55CA1BB1E36E00853AA5 /* commandline */,
+				60DF55C91BB1E36E00853AA5 /* asfyber.feature */,
+				60DF55CB1BB1E36E00853AA5 /* step_definitions */,
+				60DF55CE1BB1E36E00853AA5 /* support */,
+			);
+			path = features;
+			sourceTree = SOURCE_ROOT;
+		};
+		60DF55CB1BB1E36E00853AA5 /* step_definitions */ = {
+			isa = PBXGroup;
+			children = (
+				60DF55CC1BB1E36E00853AA5 /* calabash_steps.rb */,
+				60DF55CD1BB1E36E00853AA5 /* my_first_steps.rb */,
+			);
+			path = step_definitions;
+			sourceTree = "<group>";
+		};
+		60DF55CE1BB1E36E00853AA5 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				60DF55CF1BB1E36E00853AA5 /* 01_launch.rb */,
+				60DF55D01BB1E36E00853AA5 /* 02_pre_stop_hooks.rb */,
+				60DF55D11BB1E36E00853AA5 /* env.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		60F652FC1BB1DC8D007138CE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				60F6531C1BB1DD4C007138CE /* DATA */,
+				60F653081BB1DCDF007138CE /* Global.h */,
+				60F6530C1BB1DCDF007138CE /* RequestMaker.h */,
+				60F653041BB1DCDF007138CE /* RequestMaker.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		60F652FD1BB1DC99007138CE /* APPLICATION */ = {
+			isa = PBXGroup;
+			children = (
+				60F652FE1BB1DCAA007138CE /* VIEWS */,
+				607126A71BB1DB3D00C13381 /* AppDelegate.h */,
+				607126A81BB1DB3D00C13381 /* AppDelegate.m */,
+				607126AD1BB1DB3D00C13381 /* Main.storyboard */,
+			);
+			name = APPLICATION;
+			sourceTree = "<group>";
+		};
+		60F652FE1BB1DCAA007138CE /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				60F6531B1BB1DCE6007138CE /* List */,
+				60F6530A1BB1DCDF007138CE /* FormViewController.h */,
+				60F653061BB1DCDF007138CE /* FormViewController.m */,
+			);
+			name = VIEWS;
+			sourceTree = "<group>";
+		};
+		60F6531B1BB1DCE6007138CE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				60F653091BB1DCDF007138CE /* ListViewController.h */,
+				60F653011BB1DCDF007138CE /* ListViewController.m */,
+				60F653071BB1DCDF007138CE /* ListViewModel.h */,
+				60F652FF1BB1DCDF007138CE /* ListViewModel.m */,
+				60F653031BB1DCDF007138CE /* ListTableViewCell.h */,
+				60F653001BB1DCDF007138CE /* ListTableViewCell.m */,
+				60F653021BB1DCDF007138CE /* ListTableViewCell.xib */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		60F6531C1BB1DD4C007138CE /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				60F6530B1BB1DCDF007138CE /* Offer.h */,
+				60F653051BB1DCDF007138CE /* Offer.m */,
+			);
+			name = DATA;
+			sourceTree = "<group>";
+		};
+		D11C79A0AACD366190E39696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0993213ADE8EA01DAA4561 /* libPods.a */,
+				8235315fc46a1cc193d60200 /* CFNetwork.framework */,
+				9312e861140cd1599733ee25 /* calabash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5c49e2317797451134d36b02 /* ASFyber-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295f1503cd14e823198f0fe /* Build configuration list for PBXNativeTarget "ASFyber-cal" */;
+			buildPhases = (
+				1db72ab92f3cbfec57936fa3 /* Check Pods Manifest.lock */,
+				b7daad8ed321353a0db44edc /* Sources */,
+				ca942f966a8ddf666821d6e5 /* Frameworks */,
+				6c4598a46a425c5de7e61161 /* Resources */,
+				125f4df0df2c3e3e6fe42ab1 /* Embed Pods Frameworks */,
+				06102bf50d5d9e6e4c105e47 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASFyber-cal";
+			productName = "ASFyber-cal";
+			productReference = 60351A601BB1DE7F00662738 /* ASFyber-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6071269F1BB1DB3D00C13381 /* ASFyber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607126C31BB1DB3D00C13381 /* Build configuration list for PBXNativeTarget "ASFyber" */;
+			buildPhases = (
+				605BCCC7500FA5BD5D6FDC93 /* Check Pods Manifest.lock */,
+				6071269C1BB1DB3D00C13381 /* Sources */,
+				6071269D1BB1DB3D00C13381 /* Frameworks */,
+				6071269E1BB1DB3D00C13381 /* Resources */,
+				D0D54C80B8366F2DC8FFDE7D /* Embed Pods Frameworks */,
+				15A738D8618CF042D8EE41DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASFyber;
+			productName = ASFyber;
+			productReference = 607126A01BB1DB3D00C13381 /* ASFyber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607126B81BB1DB3D00C13381 /* ASFyberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607126C61BB1DB3D00C13381 /* Build configuration list for PBXNativeTarget "ASFyberTests" */;
+			buildPhases = (
+				607126B51BB1DB3D00C13381 /* Sources */,
+				607126B61BB1DB3D00C13381 /* Frameworks */,
+				607126B71BB1DB3D00C13381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607126BB1BB1DB3D00C13381 /* PBXTargetDependency */,
+			);
+			name = ASFyberTests;
+			productName = ASFyberTests;
+			productReference = 607126B91BB1DB3D00C13381 /* ASFyberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607126981BB1DB3D00C13381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Antonio_Stilo;
+				TargetAttributes = {
+					6071269F1BB1DB3D00C13381 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					607126B81BB1DB3D00C13381 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6071269F1BB1DB3D00C13381;
+					};
+				};
+			};
+			buildConfigurationList = 6071269B1BB1DB3D00C13381 /* Build configuration list for PBXProject "ASFyber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607126971BB1DB3D00C13381;
+			productRefGroup = 607126A11BB1DB3D00C13381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6071269F1BB1DB3D00C13381 /* ASFyber */,
+				607126B81BB1DB3D00C13381 /* ASFyberTests */,
+				5c49e2317797451134d36b02 /* ASFyber-cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6071269E1BB1DB3D00C13381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607126AF1BB1DB3D00C13381 /* Main.storyboard in Resources */,
+				60F653131BB1DCDF007138CE /* ListTableViewCell.xib in Resources */,
+				607126B41BB1DB3D00C13381 /* LaunchScreen.xib in Resources */,
+				607126B11BB1DB3D00C13381 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607126B71BB1DB3D00C13381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F653141BB1DCDF007138CE /* ListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6c4598a46a425c5de7e61161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6d6c87b7a9109f70fb7fdf83 /* Main.storyboard in Resources */,
+				c57cc680befbc6a0450a3a49 /* ListTableViewCell.xib in Resources */,
+				01bdbffde55855803f2d46a9 /* LaunchScreen.xib in Resources */,
+				4a9bdcfa29fc5c2e97c48139 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06102bf50d5d9e6e4c105e47 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		125f4df0df2c3e3e6fe42ab1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15A738D8618CF042D8EE41DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1db72ab92f3cbfec57936fa3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		605BCCC7500FA5BD5D6FDC93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D54C80B8366F2DC8FFDE7D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6071269C1BB1DB3D00C13381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F653111BB1DCDF007138CE /* ListViewController.m in Sources */,
+				607126A91BB1DB3D00C13381 /* AppDelegate.m in Sources */,
+				60F653191BB1DCDF007138CE /* FormViewController.m in Sources */,
+				60F6530F1BB1DCDF007138CE /* ListTableViewCell.m in Sources */,
+				60F6530D1BB1DCDF007138CE /* ListViewModel.m in Sources */,
+				60F653151BB1DCDF007138CE /* RequestMaker.m in Sources */,
+				607126A61BB1DB3D00C13381 /* main.m in Sources */,
+				60F653171BB1DCDF007138CE /* Offer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607126B51BB1DB3D00C13381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F653181BB1DCDF007138CE /* Offer.m in Sources */,
+				60F6531A1BB1DCDF007138CE /* FormViewController.m in Sources */,
+				607126C01BB1DB3D00C13381 /* ASFyberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		b7daad8ed321353a0db44edc /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				d37bf4c6f1e38a4f15dfadc6 /* ListViewController.m in Sources */,
+				a1ac5eb89212f25c9ebce529 /* AppDelegate.m in Sources */,
+				b6b95ace42b6c99130e65374 /* FormViewController.m in Sources */,
+				e2d1d0face6a703b7a571bcf /* ListTableViewCell.m in Sources */,
+				ba239f1a044df452e10faaf1 /* ListViewModel.m in Sources */,
+				eb77760968c5053504d05735 /* RequestMaker.m in Sources */,
+				1b3cf56ffdbf3e32f71e0328 /* main.m in Sources */,
+				797bd3589be6316ebb9be480 /* Offer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607126BB1BB1DB3D00C13381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6071269F1BB1DB3D00C13381 /* ASFyber */;
+			targetProxy = 607126BA1BB1DB3D00C13381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607126AD1BB1DB3D00C13381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607126AE1BB1DB3D00C13381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607126B21BB1DB3D00C13381 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607126B31BB1DB3D00C13381 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3b52b045d88ed84ecceedb2f /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2CDD90EBD9CED2B9A1D570 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = ASFyber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		607126C11BB1DB3D00C13381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		607126C21BB1DB3D00C13381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607126C41BB1DB3D00C13381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCFA20E0F6F7C7DE5C0C3B9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASFyber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		607126C51BB1DB3D00C13381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2CDD90EBD9CED2B9A1D570 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASFyber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		607126C71BB1DB3D00C13381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ASFyberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASFyber.app/ASFyber";
+			};
+			name = Debug;
+		};
+		607126C81BB1DB3D00C13381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ASFyberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASFyber.app/ASFyber";
+			};
+			name = Release;
+		};
+		d74cc53b0a7080937166fa59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCFA20E0F6F7C7DE5C0C3B9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = ASFyber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6071269B1BB1DB3D00C13381 /* Build configuration list for PBXProject "ASFyber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607126C11BB1DB3D00C13381 /* Debug */,
+				607126C21BB1DB3D00C13381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607126C31BB1DB3D00C13381 /* Build configuration list for PBXNativeTarget "ASFyber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607126C41BB1DB3D00C13381 /* Debug */,
+				607126C51BB1DB3D00C13381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607126C61BB1DB3D00C13381 /* Build configuration list for PBXNativeTarget "ASFyberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607126C71BB1DB3D00C13381 /* Debug */,
+				607126C81BB1DB3D00C13381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9295f1503cd14e823198f0fe /* Build configuration list for PBXNativeTarget "ASFyber-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				d74cc53b0a7080937166fa59 /* Debug */,
+				3b52b045d88ed84ecceedb2f /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607126981BB1DB3D00C13381 /* Project object */;
+}
