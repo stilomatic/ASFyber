@@ -19,18 +19,17 @@
 		607126B11BB1DB3D00C13381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607126B01BB1DB3D00C13381 /* Images.xcassets */; };
 		607126B41BB1DB3D00C13381 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607126B21BB1DB3D00C13381 /* LaunchScreen.xib */; };
 		607126C01BB1DB3D00C13381 /* ASFyberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126BF1BB1DB3D00C13381 /* ASFyberTests.m */; };
+		60F274281BB43046005D4B4D /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F274271BB43046005D4B4D /* Offer.m */; };
+		60F274291BB43046005D4B4D /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F274271BB43046005D4B4D /* Offer.m */; };
 		60F6530D1BB1DCDF007138CE /* ListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F652FF1BB1DCDF007138CE /* ListViewModel.m */; };
 		60F6530F1BB1DCDF007138CE /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653001BB1DCDF007138CE /* ListTableViewCell.m */; };
 		60F653111BB1DCDF007138CE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653011BB1DCDF007138CE /* ListViewController.m */; };
 		60F653131BB1DCDF007138CE /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F653021BB1DCDF007138CE /* ListTableViewCell.xib */; };
 		60F653141BB1DCDF007138CE /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F653021BB1DCDF007138CE /* ListTableViewCell.xib */; };
 		60F653151BB1DCDF007138CE /* RequestMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653041BB1DCDF007138CE /* RequestMaker.m */; };
-		60F653171BB1DCDF007138CE /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653051BB1DCDF007138CE /* Offer.m */; };
-		60F653181BB1DCDF007138CE /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653051BB1DCDF007138CE /* Offer.m */; };
 		60F653191BB1DCDF007138CE /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653061BB1DCDF007138CE /* FormViewController.m */; };
 		60F6531A1BB1DCDF007138CE /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653061BB1DCDF007138CE /* FormViewController.m */; };
 		6d6c87b7a9109f70fb7fdf83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607126AD1BB1DB3D00C13381 /* Main.storyboard */; };
-		797bd3589be6316ebb9be480 /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653051BB1DCDF007138CE /* Offer.m */; };
 		83EF7C11DE8A5023E101EB11 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0993213ADE8EA01DAA4561 /* libPods.a */; };
 		a1ac5eb89212f25c9ebce529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 607126A81BB1DB3D00C13381 /* AppDelegate.m */; };
 		b6b95ace42b6c99130e65374 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F653061BB1DCDF007138CE /* FormViewController.m */; };
@@ -72,19 +71,19 @@
 		60DF55CF1BB1E36E00853AA5 /* 01_launch.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = 01_launch.rb; sourceTree = "<group>"; };
 		60DF55D01BB1E36E00853AA5 /* 02_pre_stop_hooks.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = 02_pre_stop_hooks.rb; sourceTree = "<group>"; };
 		60DF55D11BB1E36E00853AA5 /* env.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		60F274261BB43046005D4B4D /* Offer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer.h; sourceTree = "<group>"; };
+		60F274271BB43046005D4B4D /* Offer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer.m; sourceTree = "<group>"; };
 		60F652FF1BB1DCDF007138CE /* ListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewModel.m; sourceTree = "<group>"; };
 		60F653001BB1DCDF007138CE /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 		60F653011BB1DCDF007138CE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		60F653021BB1DCDF007138CE /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		60F653031BB1DCDF007138CE /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
 		60F653041BB1DCDF007138CE /* RequestMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestMaker.m; sourceTree = "<group>"; };
-		60F653051BB1DCDF007138CE /* Offer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer.m; sourceTree = "<group>"; };
 		60F653061BB1DCDF007138CE /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
 		60F653071BB1DCDF007138CE /* ListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewModel.h; sourceTree = "<group>"; };
 		60F653081BB1DCDF007138CE /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
 		60F653091BB1DCDF007138CE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		60F6530A1BB1DCDF007138CE /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
-		60F6530B1BB1DCDF007138CE /* Offer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer.h; sourceTree = "<group>"; };
 		60F6530C1BB1DCDF007138CE /* RequestMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestMaker.h; sourceTree = "<group>"; };
 		8235315fc46a1cc193d60200 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8A2CDD90EBD9CED2B9A1D570 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -269,8 +268,8 @@
 		60F6531C1BB1DD4C007138CE /* DATA */ = {
 			isa = PBXGroup;
 			children = (
-				60F6530B1BB1DCDF007138CE /* Offer.h */,
-				60F653051BB1DCDF007138CE /* Offer.m */,
+				60F274261BB43046005D4B4D /* Offer.h */,
+				60F274271BB43046005D4B4D /* Offer.m */,
 			);
 			name = DATA;
 			sourceTree = "<group>";
@@ -519,10 +518,10 @@
 				607126A91BB1DB3D00C13381 /* AppDelegate.m in Sources */,
 				60F653191BB1DCDF007138CE /* FormViewController.m in Sources */,
 				60F6530F1BB1DCDF007138CE /* ListTableViewCell.m in Sources */,
+				60F274281BB43046005D4B4D /* Offer.m in Sources */,
 				60F6530D1BB1DCDF007138CE /* ListViewModel.m in Sources */,
 				60F653151BB1DCDF007138CE /* RequestMaker.m in Sources */,
 				607126A61BB1DB3D00C13381 /* main.m in Sources */,
-				60F653171BB1DCDF007138CE /* Offer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +529,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F653181BB1DCDF007138CE /* Offer.m in Sources */,
 				60F6531A1BB1DCDF007138CE /* FormViewController.m in Sources */,
 				607126C01BB1DB3D00C13381 /* ASFyberTests.m in Sources */,
 			);
@@ -544,10 +542,10 @@
 				a1ac5eb89212f25c9ebce529 /* AppDelegate.m in Sources */,
 				b6b95ace42b6c99130e65374 /* FormViewController.m in Sources */,
 				e2d1d0face6a703b7a571bcf /* ListTableViewCell.m in Sources */,
+				60F274291BB43046005D4B4D /* Offer.m in Sources */,
 				ba239f1a044df452e10faaf1 /* ListViewModel.m in Sources */,
 				eb77760968c5053504d05735 /* RequestMaker.m in Sources */,
 				1b3cf56ffdbf3e32f71e0328 /* main.m in Sources */,
-				797bd3589be6316ebb9be480 /* Offer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
